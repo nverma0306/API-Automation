@@ -22,9 +22,9 @@ It has following submodules corresponding to each APIs
 * Utilities-Automated 2 available methods
 
 ### Project Architecture
-> The project is created using postman tool, its inbuilt snippets, javascript coding language. The complete project is divided in 5 submodules. Each submodule has basic CRUD operations as was provided by Best Buy Playground APIs. 
+> *The project is created using postman tool, its inbuilt snippets, javascript coding language. The complete project is divided in 5 submodules. Each submodule has basic CRUD operations as was provided by Best Buy Playground APIs. 
 For Products, Stores, Services, Categories, Utilities APIs, for each method, validations are applied for schema verification, response time verification, request status, header content availability, different parameters availability and validations on diff values. 
-Validations are also applied for verifying that different product, store, service, category after deletion, cannot be deleted again and are treated as bad requests.
+Validations are also applied for verifying that different product, store, service, category after deletion, cannot be deleted again and are treated as bad requests.*
 
 ### Project File Structure & description
 
@@ -38,6 +38,8 @@ Validations are also applied for verifying that different product, store, servic
 	Documentation about the project.
 5. **newman** folder
     This folder contains generated report.
+6. **API Automation Test Cases.xlsx** folder
+    This folder contains the list of automated testcases
 
 ### How to run : 
 1. Download or copy both json file in one folder. Note the path to this folder.
